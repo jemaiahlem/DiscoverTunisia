@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityGuide"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nom"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Nom :" />
+        <EditText
+            android:id="@+id/editTextNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entrer_votre_nom"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/txt_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prenom"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Prénom :" />
+        <EditText
+            android:id="@+id/editTextPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entrer_votre_prenom"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/txt_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Age :" />
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/entrer_votre_age"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:importantForAutofill="no" />
+        <TextView
+            android:id="@+id/txt_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/langages"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:text="Nombres des langues :" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dsi31g2.discovertunisia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/discoverlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/discoverlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".ActivityTransport"
+            android:label="Page Transport"/>
+        <activity
+            android:name=".ActivityGuide"
+            android:label="Page Guide"/>
+        <activity
+            android:name=".ActivityHotel"
+            android:label="Page Hotels"/>
+        <activity
+            android:name=".ActivityRestau"
+            android:label="Page restaurant"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

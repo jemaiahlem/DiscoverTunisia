@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DiscoverTunisia</string>
+    <string name="slider">slider</string>
+    <string name="ic_hotel">ic_hotel</string>
+    <string name="ic_restaurant">ic_restaurant</string>
+    <string name="ic_transport">ic_transport</string>
+    <string name="ic_guide">ic_guide</string>
+    <string name="hotel">Hotel</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="nom">Nom</string>
+    <string name="entrer_votre_nom">Entrer votre nom</string>
+    <string name="prenom">prenom</string>
+    <string name="entrer_votre_prenom">Entrer votre prenom</string>
+    <string name="age">age</string>
+    <string name="entrer_votre_age">Entrer votre Age</string>
+    <string name="langages">Langages</string>
+    <string name="transport">Transport</string>
+    <string name="guide">Guide</string>
+</resources>
